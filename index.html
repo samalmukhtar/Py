@@ -190,6 +190,7 @@
   <!-- عرض الأخبار المتحركة -->
   <div class="news-container">
     <p>آخر الأخبار: تعلم بايثون الآن مع الدورات المجانية! تصفح منتديات البرمجة لأحدث الأسئلة والحلول...</p>
+    
   </div>
 
   <!-- روابط المصادر التعليمية -->
@@ -262,9 +263,41 @@
     <tr><td>freeCodeCamp.org</td><td><a href="https://www.youtube.com/c/Freecodecamp" target="_blank">مشاهدة</a></td></tr>
     <tr><td>The Net Ninja</td><td><a href="https://www.youtube.com/c/TheNetNinja" target="_blank">مشاهدة</a></td></tr>
     <tr><td>Programming with Mosh</td><td><a href="https://www.youtube.com/c/programmingwithmosh" target="_blank">مشاهدة</a></td></tr>
-    <tr><td>Elzero Web School</td><td><a href="https://www.youtube.com/c/ElzeroWebSchool" target="_blank">مشاهدة</a></td></tr>
-    <tr><td>قناة عربية أخرى</td><td><a href="#" target="_blank">مشاهدة</a></td></tr>
+    <tr><td>Elzero Web School</td><td><a href="https://www.youtube.com/watch?v=LdJbP0NbFRw" target="_blank">مشاهدة</a></td></tr>
+    <tr><td>قناة عربية أخرى</td><td><a href="https://www.youtube.com/watch?v=XhQsG1YRvOg&t=111s" target="_blank">مشاهدة</a></td></tr>
+    <table border="1">
+      <tr>
+          <th>اسم القناة</th>
+          <th>رابط المشاهدة</th>
+      </tr>
+      <tr>
+          <td>أفضل 10 قنوات لتعلم البرمجة</td>
+          <td><a href="https://www.youtube.com/watch?v=CLrxIwaNUrw" target="_blank">مشاهدة</a></td>
+      </tr>
+      <tr>
+          <td>Elzero تعلم لغة Python بشكل مبتديء</td>
+          <td><a href="https://www.youtube.com/watch?v=mvZHDpCHphk&list=PLDoPjvoNmBAyE_gei5d18qkfIe-Z8mocs" target="_blank">مشاهدة</a></td>
+      </tr>
+      <tr>
+          <td>عبدالله عيد جافا JAVA </td>
+          <td><a href="https://www.youtube.com/watch?v=3QC6Zpz3As4&list=PL28DDB2DCF87BEE43" target="_blank">مشاهدة</a></td>
+      </tr>
+      <tr>
+          <td>كورس مقدمة عن أساسيات البرمجة للمبتدئين</td>
+          <td><a href="https://www.youtube.com/watch?v=06h470AiBZ4" target="_blank">مشاهدة</a></td>
+      </tr>
+      <tr>
+          <td>مدخلك إلى عالم البرمجة بتعريفها وأنواعها ومجالاتها وكيف تبدأ تتعلمها</td>
+          <td><a href="https://www.youtube.com/watch?v=S773UjJWlug&t=1925s" target="_blank">مشاهدة</a></td>
+      </tr>
+      <tr>
+          <td>الخوارزميات : سر النجاح في عالم البرمجة والذكاء الاصطناعي  </td>
+          <td><a href="https://www.youtube.com/watch?v=7gvn1U4714g" target="_blank">مشاهدة</a></td>
+      </tr>
+  </table>
+  
 </table>
+
 
 <h2>قنوات لتعلم الكمبيوتر وأساسياته</h2>
 <table>
@@ -281,6 +314,89 @@
     <tr><td>دنيس ريتشي</td><td>C ويونكس</td></tr>
     <tr><td>غويدو فان روسم</td><td>بايثون</td></tr>
 </table>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شريط أخبار التقنية</title>
+    <style>
+        .news-container {
+            width: 100%;
+            background-color: #222;
+            color: white;
+            padding: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .scrolling-news-container {
+            width: 100%;
+            overflow: hidden;
+            background-color: #111;
+            color: white;
+            padding: 10px 0;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
+
+        .news-content {
+            display: inline-block;
+            animation: scrollNews 40s linear infinite;
+        }
+
+        .news-item {
+            display: inline;
+            margin: 0 30px;
+        }
+
+        .news-item a {
+            color: #00d4ff;
+            text-decoration: none;
+        }
+
+        @keyframes scrollNews {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- الخبر الثابت -->
+    <div class="news-container">
+        <p>آخر الأخبار: تعلم كل شيء الآن مع الدورات المجانية! تصفح منتديات البرمجة لأحدث الأسئلة والحلول...</p>
+    </div>
+
+    <!-- الأخبار المتحركة -->
+    <div class="scrolling-news-container">
+        <div class="news-content">
+            <span class="news-item"><a href="https://aitnews.com/latest-it-news/" target="_blank">أمازون تلغي ميزة تنزيل الكتب الإلكترونية احتياطيًا</a></span>
+            <span class="news-item"><a href="https://aitnews.com/latest-it-news/" target="_blank">Perplexity تطلق أداة Deep Research للبحث العميق</a></span>
+            <span class="news-item"><a href="https://aitnews.com/latest-it-news/" target="_blank">ريديت تعتزم إطلاق "المنتديات المأجورة" هذا العام</a></span>
+            <span class="news-item"><a href="https://aitnews.com/latest-it-news/" target="_blank">جوجل تعطّل نظام اكتشاف الزلازل في البرازيل بسبب إنذارٍ كاذب</a></span>
+            <span class="news-item"><a href="https://www.unlimit-tech.com/" target="_blank">تسريب صور جديدة لهاتف Samsung Galaxy A26</a></span>
+            <span class="news-item"><a href="https://www.unlimit-tech.com/" target="_blank">سلسلة Nothing Phone (3a) ستعمل بمعالجات Snapdragon</a></span>
+            <span class="news-item"><a href="https://www.aljazeera.net/tech/" target="_blank">سام ألتمان يخطط لدمج جميع نماذج الذكاء الاصطناعي</a></span>
+            <span class="news-item"><a href="https://www.akhbaar24.com/%D8%AA%D9%82%D9%86%D9%8A%D8%A9" target="_blank">"ليب 2025".. نافذة على مستقبل الذكاء الاصطناعي</a></span>
+            <span class="news-item"><a href="https://arabic.rt.com/tags/new_tech/" target="_blank">أبرز ما يميز ساعة Redmi Watch 5 الذكية</a></span>
+            <span class="news-item"><a href="https://www.technologianews.com/category/tech-news/" target="_blank">آبل تطلق تحديثات أمنية جديدة لأجهزة iPhone و Mac</a></span>
+            <span class="news-item"><a href="https://www.technologianews.com/category/tech-news/" target="_blank">مايكروسوفت تعزز أمان Windows 11 بميزات جديدة</a></span>
+            <span class="news-item"><a href="https://www.technologianews.com/category/tech-news/" target="_blank">إيلون ماسك يكشف عن تقنيات جديدة في تيسلا</a></span>
+            <span class="news-item"><a href="https://www.technologianews.com/category/tech-news/" target="_blank">جوجل تطرح ميزات متطورة في مساعدها الذكي</a></span>
+            <span class="news-item"><a href="https://www.technologianews.com/category/tech-news/" target="_blank">باكستان تخطط لإرسال مركبة روبوتية إلى القمر</a></span>
+            <span class="news-item"><a href="https://www.technologianews.com/category/tech-news/" target="_blank">"HMD" توقف إنتاج هواتف نوكيا الذكية</a></span>
+            <span class="news-item"><a href="https://www.technologianews.com/category/tech-news/" target="_blank">Nintendo تعلن عن منصتها الجديدة لمحبي الألعاب الإلكترونية</a></span>
+        </div>
+    </div>
+
+</body>
+</html>
 
 <div class="link-section">
     <h2>روابط مفيدة</h2>
@@ -364,15 +480,18 @@
     }, 3000);
 </script>
 <h2>إدارة المهام</h2>
-<ul>
-    <li><a href="https://grow.google/certificates/">أفضل 9دورات مجانية من جوجل</a></li>
-    <li><a href="https://learn.microsoft.com/en-us/training/">أفضل 10 دورات مجانية من مايكروسوفت</a></li>
-    <li><a href="file:///F:/%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D9%85%D8%AC%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%D8%A9/%D8%A1%D8%A7%D8%AF%D9%85/MAT-main/index.html">مسارات تعليمية</a></li>
-    <li><a href="https://samalmukhtar.github.io/ksa/">أكاديمية البرمجة والدورات</a></li>
-    <li><a href="https://samalmukhtar.github.io/BEGSCOOLE/">المدرسة الكبرى</a></li>
-    <li><a href="https://miro.com/">منصة ميرو</a></li>
-    <li><a href="https://teams.microsoft.com/">جوجل تيمز</a></li>
+
+   <li><a href="https://samalmukhtar.github.io/MAT/">سجل مهامك مواقعك وقنواتك لتصل إليها في أي وقت</a></li>
+   <li><a href="https://grow.google/certificates/">أفضل 9دورات مجانية من جوجل</a></li>
+   <li><a href="https://learn.microsoft.com/en-us/training/">أفضل 10 دورات مجانية من مايكروسوفت</a></li>
+   <li><a href="file:///F:/%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D9%85%D8%AC%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%D8%A9/%D8%A1%D8%A7%D8%AF%D9%85/MAT-main/index.html">مسارات تعليمية</a></li>
+   <li><a href="https://samalmukhtar.github.io/ksa/">أكاديمية البرمجة والدورات</a></li>
+   <li><a href="https://samalmukhtar.github.io/BEGSCOOLE/">المدرسة الكبرى</a></li>
+   <li><a href="https://miro.com/">منصة ميرو</a></li>
+   <li><a href="https://teams.microsoft.com/">جوجل تيمز</a></li>
 </ul>
+<ul>
+
 
 <style>
 @keyframes moving-text {
